@@ -22,9 +22,9 @@ npm install -g yarn
 yarn -v
 ```
 
-# Install Hardhat:**
+# Install Hardhat:
 
-```
+
 ```npm install --save-dev hardhat`
 Deploy FHECounter contract
 `git clone https://github.com/zama-ai/fhevm-hardhat-template
