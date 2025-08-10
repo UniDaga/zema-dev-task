@@ -1,4 +1,4 @@
-Zama Developer Program – Level 2 & 3 Guide
+# Zama Developer Program – Level 2 & 3 Guide
 Complete Level 2 and 3 of the Zama Developer Program
 
 Environment
