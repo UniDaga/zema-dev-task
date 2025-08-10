@@ -24,49 +24,63 @@ yarn -v
 
 # Install Hardhat:
 
-```npm install --save-dev hardhat 
-```
-
-# Deploy FHECounter contract
-``` git clone https://github.com/zama-ai/fhevm-hardhat-template
+```bash
+npm install --save-dev hardhat
+Deploy FHECounter contract
+bash
+Copy
+Edit
+git clone https://github.com/zama-ai/fhevm-hardhat-template
 cd fhevm-hardhat-template
- ```
+Install:
+bash
+Copy
+Edit
+npm install
+Replace hardhat.config.ts file:
+bash
+Copy
+Edit
+curl -o hardhat.config.ts https://raw.githubusercontent.com/0xmoei/zama-fhe/refs/heads/main/hardhat.config.ts
+Set Sepolia RPC:
+bash
+Copy
+Edit
+npx hardhat vars set SEPOLIA_RPC_URL
+It prompts you to enter a Sepolia RPC, you can use https://ethereum-sepolia-rpc.publicnode.com
 
-# Install:
-```npm install
-```
-# Replace hardhat.config.ts file:
+Set Privatekey: Use Burner Wallet
+bash
+Copy
+Edit
+npx hardhat vars set PRIVATE_KEY
+It prompts you to enter a privatekey, enter without 0x prefix.
 
-```curl -o hardhat.config.ts https://raw.githubusercontent.com/0xmoei/zama-fhe/refs/heads/main/hardhat.config.ts
-```
-
-# Set Sepolia RPC:
-
-```npx hardhat vars set SEPOLIA_RPC_URL
-```
- It prompts you to enter a Sepolia RPC, you can use `https://ethereum-sepolia-rpc.publicnode.com`
- # Set Privatekey: Use Burner Wallet
-
-```npx hardhat vars set PRIVATE_KEY
-```
-# It prompts you to enter a privatekey, enter without 0x perfix.
 Verify your wallet:
-
-```npx hardhat accounts --network sepolia
-```
-# Compile and Deploy:
-
-# Compile
-```npx hardhat compile
-```
-
-# Deploy
-```npx hardhat deploy --network sepolia
-```
+bash
+Copy
+Edit
+npx hardhat accounts --network sepolia
+Compile and Deploy:
+Compile
+bash
+Copy
+Edit
+npx hardhat compile
+Deploy
+bash
+Copy
+Edit
+npx hardhat deploy --network sepolia
 It responds with your deployed contract address
+
 Claim Level 3
 Visit: https://guild.xyz/zama/developer-program
 
 → Find Level 3: Deploy your confidential contract → Paste your deployed contract address
 
 🎉 You’ve completed Level 3!
+
+yaml
+Copy
+Edit
