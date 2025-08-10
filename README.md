@@ -5,12 +5,12 @@ Environment
 Windows: Use Linux Ubuntu OS ( Run in admin )
 
 Install Dependencies
-line 1 # Packages:
+# Packages:
 `sudo apt update && sudo apt upgrade -y
 sudo apt install screen curl iptables build-essential git wget lz4 jq make gcc nano automake autoconf tmux htop nvme-cli libgbm1 pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip libleveldb-dev  -y`
--
+--------
 
-line 2 # Install Nodejs, npm, yarn
+# Install Nodejs, npm, yarn
 `sudo apt update
 sudo curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
 sudo apt install -y nodejs
