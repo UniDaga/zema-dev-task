@@ -17,31 +17,31 @@ sudo apt install -y nodejs
 node -v
 npm install -g yarn
 yarn -v`
-#Install Hardhat:
+# Install Hardhat:
 
 `npm install --save-dev hardhat`
 Deploy FHECounter contract
 `git clone https://github.com/zama-ai/fhevm-hardhat-template
 cd fhevm-hardhat-template`
--
-#Install:
+
+# Install:
 `npm install`
-Replace hardhat.config.ts file:
+# Replace hardhat.config.ts file:
 
 `curl -o hardhat.config.ts https://raw.githubusercontent.com/0xmoei/zama-fhe/refs/heads/main/hardhat.config.ts`
 
-Set Sepolia RPC:
+# Set Sepolia RPC:
 
 `npx hardhat vars set SEPOLIA_RPC_URL`
 It prompts you to enter a Sepolia RPC, you can use `https://ethereum-sepolia-rpc.publicnode.com`
-Set Privatekey: Use Burner Wallet
+# Set Privatekey: Use Burner Wallet
 
 `npx hardhat vars set PRIVATE_KEY`
-It prompts you to enter a privatekey, enter without 0x perfix.
+# It prompts you to enter a privatekey, enter without 0x perfix.
 Verify your wallet:
 
 `npx hardhat accounts --network sepolia`
-Compile and Deploy:
+# Compile and Deploy:
 
 `# Compile
 npx hardhat compile
