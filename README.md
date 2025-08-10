@@ -43,11 +43,11 @@ Verify your wallet:
 `npx hardhat accounts --network sepolia`
 # Compile and Deploy:
 
-`# Compile
-npx hardhat compile
+# Compile
+`npx hardhat compile`
 
 # Deploy
-npx hardhat deploy --network sepolia`
+`npx hardhat deploy --network sepolia`
 It responds with your deployed contract address
 Claim Level 3
 Visit: https://guild.xyz/zama/developer-program
