@@ -17,7 +17,7 @@ sudo apt install -y nodejs
 node -v
 npm install -g yarn
 yarn -v`
-Install Hardhat:
+#Install Hardhat:
 
 `npm install --save-dev hardhat`
 Deploy FHECounter contract
