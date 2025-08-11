@@ -14,35 +14,35 @@ sudo apt install screen curl iptables build-essential git wget lz4 jq make gcc n
 
  # Install Hardhat:
 
-npm install --save-dev hardhat
-Deploy FHECounter contract
-git clone https://github.com/zama-ai/fhevm-hardhat-template
-cd fhevm-hardhat-template
-Install:
+```npm install --save-dev hardhat```
+# Deploy FHECounter contract
+```git clone https://github.com/zama-ai/fhevm-hardhat-template
+cd fhevm-hardhat-template```
+# Install:
 
-npm install
-Replace hardhat.config.ts file:
+```npm install```
+# Replace hardhat.config.ts file:
 
-curl -o hardhat.config.ts https://raw.githubusercontent.com/0xmoei/zama-fhe/refs/heads/main/hardhat.config.ts
+```curl -o hardhat.config.ts https://raw.githubusercontent.com/0xmoei/zama-fhe/refs/heads/main/hardhat.config.ts```
 
-Set Sepolia RPC:
+# Set Sepolia RPC:
 
-npx hardhat vars set SEPOLIA_RPC_URL
+```npx hardhat vars set SEPOLIA_RPC_URL```
 It prompts you to enter a Sepolia RPC, you can use https://ethereum-sepolia-rpc.publicnode.com
-Set Privatekey: Use Burner Wallet
+# Set Privatekey: Use Burner Wallet
 
-npx hardhat vars set PRIVATE_KEY
-It prompts you to enter a privatekey, enter without 0x perfix.
-Verify your wallet:
+```npx hardhat vars set PRIVATE_KEY```
+# It prompts you to enter a privatekey, enter without 0x perfix.
+# Verify your wallet:
 
-npx hardhat accounts --network sepolia
+```npx hardhat accounts --network sepolia```
 Compile and Deploy:
 
-# Compile
+## Compile
 ```npx hardhat compile```
 
-# Deploy
-npx hardhat deploy --network sepolia
+## Deploy
+```npx hardhat deploy --network sepolia```
 It responds with your deployed contract address
 Claim Level 3
 Visit: https://guild.xyz/zama/developer-program
@@ -51,22 +51,4 @@ Visit: https://guild.xyz/zama/developer-program
 
 🎉 You’ve completed Level 3!
 
-Made with ❤️ by Morsyxbt
 
-About
-No description, website, or topics provided.
-Resources
- Readme
- Activity
-Stars
- 1 star
-Watchers
- 0 watching
-Forks
- 0 forks
-Report repository
-Releases
-No releases published
-Packages
-No packages published
-Footer
