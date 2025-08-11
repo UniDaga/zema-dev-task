@@ -21,7 +21,8 @@ yarn -v
 ```
 
 # Install Hardhat:
-``` npm install --save-dev hardhat 
+```
+ npm install --save-dev hardhat 
 ```
 -
 
