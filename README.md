@@ -49,10 +49,10 @@ It prompts you to enter a Sepolia RPC, you can use `https://ethereum-sepolia-rpc
 
 # Deploy
 `npx hardhat deploy --network sepolia`
-# It responds with your deployed contract address
-# Claim Level 3
-# Visit: https://guild.xyz/zama/developer-program
+### It responds with your deployed contract address
+### Claim Level 3
+### Visit: https://guild.xyz/zama/developer-program
 
-# → Find Level 3: Deploy your confidential contract → Paste your deployed contract address
+### → Find Level 3: Deploy your confidential contract → Paste your deployed contract address
 
-# 🎉 You’ve completed Level 3!
+### 🎉 You’ve completed Level 3!
