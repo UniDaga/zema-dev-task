@@ -27,8 +27,10 @@ yarn -v
 -
 
 # Deploy FHECounter contract
-`git clone https://github.com/zama-ai/fhevm-hardhat-template
-cd fhevm-hardhat-template `
+```
+git clone https://github.com/zama-ai/fhevm-hardhat-template
+cd fhevm-hardhat-template
+```
 # Install:
 
 `npm install`
