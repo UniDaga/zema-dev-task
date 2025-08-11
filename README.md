@@ -66,10 +66,9 @@ npx hardhat accounts --network sepolia
 # Compile
 ```
 npx hardhat compile
+# deploy
+npx hardhat deploy --network sepolia
 ```
-
-# Deploy
-`npx hardhat deploy --network sepolia`
 ### It responds with your deployed contract address
 ### Claim Level 3
 ### Visit: https://guild.xyz/zama/developer-program
