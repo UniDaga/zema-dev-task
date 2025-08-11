@@ -12,7 +12,7 @@ sudo apt install screen curl iptables build-essential git wget lz4 jq make gcc n
 ```
 
 
-  Install Hardhat:
+ # Install Hardhat:
 
 npm install --save-dev hardhat
 Deploy FHECounter contract
