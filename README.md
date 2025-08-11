@@ -34,7 +34,8 @@ cd fhevm-hardhat-template `
 # Set Sepolia RPC:
 
 `npx hardhat vars set SEPOLIA_RPC_URL`
-It prompts you to enter a Sepolia RPC, you can use `https://ethereum-sepolia-rpc.publicnode.com`
+## It prompts you to enter a Sepolia RPC, you can use
+`https://ethereum-sepolia-rpc.publicnode.com`
 # Set Privatekey: Use Burner Wallet
 
 `npx hardhat vars set PRIVATE_KEY`
