@@ -63,8 +63,8 @@ npx hardhat accounts --network sepolia
 ```
 # Compile and Deploy:
 
-# Compile
 ```
+# Compile
 npx hardhat compile
 # deploy
 npx hardhat deploy --network sepolia
