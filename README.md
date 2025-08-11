@@ -33,7 +33,9 @@ cd fhevm-hardhat-template
 ```
 # Install:
 
-`npm install`
+```
+npm install
+```
 
 # Replace hardhat.config.ts file:
 
