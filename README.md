@@ -55,7 +55,7 @@ npx hardhat vars set SEPOLIA_RPC_URL
 ```
 npx hardhat vars set PRIVATE_KEY
 ```
-# It prompts you to enter a privatekey, enter without 0x perfix.
+## It prompts you to enter a privatekey, enter without 0x perfix.
 # Verify your wallet:
 
 ```
